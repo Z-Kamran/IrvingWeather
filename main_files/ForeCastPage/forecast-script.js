@@ -15,8 +15,8 @@ function call(){axios.get("https://api.open-meteo.com/v1/forecast?latitude=32.81
     const daysOfTheWeek = ["Monday","Tuesday", "Wednesday","Thursday","Friday", "Saturday", "Sunday"];
 
     for(let i=0; i<dayNode.length; i++){
-       let sample =  new Date(dateData[i]).getDay();
-        dayNode[i].innerHTML = daysOfTheWeek[sample]
+       let getDay =  new Date(dateData[i]).getDay();
+        dayNode[i].innerHTML = daysOfTheWeek[getDay]
     }
 
     const tempMax = res.data.daily.temperature_2m_max
