@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irving Weather</title>
+    <script src="script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header><span class="live">Live</span> Irving Weather</header>
+
+    <div class="container">
+        
+        
+        <div class="infoContainer">
+
+            <div class="weatherCode">
+                <div class="svg"></div>
+                
+                </div>
+            <div class="info">
+                <h1>Temperature: <span class="temp">#</span></h1>   
+                <h1>Apparent Temp: <span class="apTemp">#</span></h1> 
+                <h1>Humidity: <span class="humid">#</span></h1>          
+                <h1>Wind Speed: <span class="windSpeed">#</span></h1> 
+                <h1>Wind Direction: <span class="windDirect">#</span></h1> 
+                <h1>Surface Pressure: <span class="surPress">#</span></h1>
+                <h1 class="weatherCondition"></h1>
+                <button class="button"> Next 3 Days</button>
+                   
+            </div> 
+            <div class="data">
+                <h1 class="day">Friday</h1>   
+                <h1><span class="dateToday">####</span></h1> 
+                <h1 class="time">##:##:## ##</h1>
+            </div>
+    
+        </div>
+
+      
+    </div>
+
+   
+
+    
+</body>
+</html>

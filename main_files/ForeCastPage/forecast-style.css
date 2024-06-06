@@ -1,0 +1,125 @@
+body{
+    background: url(../6541206.jpg);
+    background-size: cover;
+    padding: 0;
+    margin: 0; 
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgba(114, 9, 183, 0.6);
+    color: white;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(3, 4, 94 ,0.6);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+.second-column{
+    text-align:start;
+    margin-left: 28px;
+    
+}
+
+.infoContainer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    text-align: start;
+    flex-wrap: wrap;
+    gap:10px;
+    margin-bottom: 0px;
+    width: auto;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.onlyButton{
+    margin-bottom: 40px;
+    margin-top: -30px;
+    background: rgb(102, 3, 48);
+    border-radius: 8px;
+    font-family: "Urbanist", sans-serif;
+    color: #ffffff;
+    font-size: 28px;
+    padding: 12px 40px 12px 40px;
+    }
+
+    .onlyButton:hover{
+        background: rgb(130, 7, 62);
+        text-decoration: none;
+    }
+
+.info{
+    background-color: rgb(33, 7, 92, 0.5);
+    width: 480px;
+    height: 700px;
+    padding: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    align-content: center;
+    line-height: 30px;
+    font-family: "Urbanist", sans-serif;
+    font-weight:lighter;
+    font-style: normal;
+    box-shadow: 0px 2px 7px 0.7px rgba(255,255,255,0.3);
+    font-size: small;
+    color: rgb(205, 205, 205);
+    
+}
+
+.infoTexts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0px;
+    font-size: 12px;
+}
+
+
+.info span{
+    font-size: 28px;
+}
+
+span{
+    color: white
+}
+
+.weatherCondition{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.dateAndTime{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+
+.date{
+    font-size: 30px;
+}
