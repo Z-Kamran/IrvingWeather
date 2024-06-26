@@ -1,15 +1,15 @@
 **IrvingWeather
 Live current and 3 days forecast weather of Irving City located in Texas.**
 
-Guide to run the project (IrvingWeather):
+👉🏿 Guide to run the project (IrvingWeather) 👈🏾
 
-Using PowerShell, or node; clone the repository from GitHub "git clone".
+👉 Step 1: Using PowerShell, or node; clone the repository from GitHub "git clone".
 
-cd in to the project folder by typing (cd IrvingWeather) 
+👉 Step 2:cd in to the project folder by typing (cd IrvingWeather) 
 
-type "npm install"
+👉 Step 3:type "npm install"
 
-cd in to the main_files by typing "cd main_files"
+👉 Step 4:cd in to the main_files by typing "cd main_files"
 
-type "start index.html"
+👉 Step 5:type "start index.html"
 
