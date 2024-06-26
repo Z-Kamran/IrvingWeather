@@ -7,4 +7,7 @@ After cloning the repository from GitHub (git clone), cd in to the project folde
 
 Run npm install
 
-Run npm div
+cd in to the main_files
+
+type start index.html
+
